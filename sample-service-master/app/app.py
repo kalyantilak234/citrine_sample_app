@@ -24,10 +24,11 @@ pre {{
 </html>
     """
 
-
+#Checking health
 @app.route("/healthcheck")
 def healthcheck():
     return "Healthy update"
+
 
 
 if __name__ == "__main__":
