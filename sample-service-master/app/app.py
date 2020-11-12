@@ -24,7 +24,7 @@ pre {{
 </html>
     """
 
-#Checking health
+#health Check
 @app.route("/healthcheck")
 def healthcheck():
     return "Healthy update"
